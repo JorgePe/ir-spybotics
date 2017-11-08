@@ -34,3 +34,5 @@ Then to send the command we use:
 ```
 mySender.send(RCh1_OrangeNop_YellowFwd,RCh1_OrangeNop_YellowFwd,76);
 ```
+
+# NOTE: only Channel 1 commands are working, will fix other channels soon.
