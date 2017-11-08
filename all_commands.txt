@@ -1,0 +1,324 @@
+Command: Ch1_OrangeNop_YellowNop
+  Msg:     00000101011101101000001
+  Size:    12
+  Signal:  1040, 208, 208, 208, 208, 624, 208, 416, 208, 208, 1040, 416
+
+Command: Ch1_OrangeNop_YellowFwd
+  Msg:     00000101011100010111011
+  Size:    12
+  Signal:  1040, 208, 208, 208, 208, 624, 624, 208, 208, 624, 208, 624
+
+Command: Ch1_OrangeNop_YellowRev
+  Msg:     00000101011100011111111
+  Size:    8
+  Signal:  1040, 208, 208, 208, 208, 624, 624, 1872
+
+Command: Ch1_OrangeNop_YellowStp
+  Msg:     00000101011101100000101
+  Size:    12
+  Signal:  1040, 208, 208, 208, 208, 624, 208, 416, 1040, 208, 208, 416
+
+Command: Ch1_OrangeFwd_YellowNop
+  Msg:     01110101001100010000001
+  Size:    12
+  Signal:  208, 624, 208, 208, 208, 208, 416, 416, 624, 208, 1248, 416
+
+Command: Ch1_OrangeFwd_YellowFwd
+  Msg:     01110101001101011111011
+  Size:    14
+  Signal:  208, 624, 208, 208, 208, 208, 416, 416, 208, 208, 208, 1040, 208, 624
+
+Command: Ch1_OrangeFwd_YellowRev
+  Msg:     01110101001101010111111
+  Size:    14
+  Signal:  208, 624, 208, 208, 208, 208, 416, 416, 208, 208, 208, 208, 208, 1456
+
+Command: Ch1_OrangeFwd_YellowStp
+  Msg:     01110101001100011000101
+  Size:    14
+  Signal:  208, 624, 208, 208, 208, 208, 416, 416, 624, 416, 624, 208, 208, 416
+
+Command: Ch1_OrangeRev_YellowNop
+  Msg:     01111101011100011000011
+  Size:    10
+  Signal:  208, 1040, 208, 208, 208, 624, 624, 416, 832, 624
+
+Command: Ch1_OrangeRev_YellowFwd
+  Msg:     01111101011101010111001
+  Size:    14
+  Signal:  208, 1040, 208, 208, 208, 624, 208, 208, 208, 208, 208, 624, 416, 416
+
+Command: Ch1_OrangeRev_YellowRev
+  Msg:     01111101011101011111101
+  Size:    12
+  Signal:  208, 1040, 208, 208, 208, 624, 208, 208, 208, 1248, 208, 416
+
+Command: Ch1_OrangeRev_YellowStp
+  Msg:     01111101011100010000111
+  Size:    10
+  Signal:  208, 1040, 208, 208, 208, 624, 624, 208, 832, 832
+
+Command: Ch1_OrangeStp_YellowNop
+  Msg:     00001101001101100000011
+  Size:    10
+  Signal:  832, 416, 208, 208, 416, 416, 208, 416, 1248, 624
+
+Command: Ch1_OrangeStp_YellowFwd
+  Msg:     00001101001100011111001
+  Size:    10
+  Signal:  832, 416, 208, 208, 416, 416, 624, 1040, 416, 416
+
+Command: Ch1_OrangeStp_YellowRev
+  Msg:     00001101001100010111101
+  Size:    12
+  Signal:  832, 416, 208, 208, 416, 416, 624, 208, 208, 832, 208, 416
+
+Command: Ch1_OrangeStp_YellowStp
+  Msg:     00001101001101101000111
+  Size:    12
+  Signal:  832, 416, 208, 208, 416, 416, 208, 416, 208, 208, 624, 832
+
+
+Command: Ch2_OrangeNop_YellowNop
+  Msg:     00000011011100101000011
+  Size:    10
+  Signal:  1248, 416, 208, 624, 416, 208, 208, 208, 832, 624
+
+Command: Ch2_OrangeNop_YellowFwd
+  Msg:     00000011011101100111001
+  Size:    10
+  Signal:  1248, 416, 208, 624, 208, 416, 416, 624, 416, 416
+
+Command: Ch2_OrangeNop_YellowRev
+  Msg:     00000011011101101111101
+  Size:    10
+  Signal:  1248, 416, 208, 624, 208, 416, 208, 1040, 208, 416
+
+Command: Ch2_OrangeNop_YellowStp
+  Msg:     00000011011100100000111
+  Size:    8
+  Signal:  1248, 416, 208, 624, 416, 208, 1040, 832
+
+Command: Ch2_OrangeFwd_YellowNop
+  Msg:     01110011001101100000011
+  Size:    10
+  Signal:  208, 624, 416, 416, 416, 416, 208, 416, 1248, 624
+
+Command: Ch2_OrangeFwd_YellowFwd
+  Msg:     01110011001100011111001
+  Size:    10
+  Signal:  208, 624, 416, 416, 416, 416, 624, 1040, 416, 416
+
+Command: Ch2_OrangeFwd_YellowRev
+  Msg:     01110011001100010111101
+  Size:    12
+  Signal:  208, 624, 416, 416, 416, 416, 624, 208, 208, 832, 208, 416
+
+Command: Ch2_OrangeFwd_YellowStp
+  Msg:     01110011001101101000111
+  Size:    12
+  Signal:  208, 624, 416, 416, 416, 416, 208, 416, 208, 208, 624, 832
+
+Command: Ch2_OrangeRev_YellowNop
+  Msg:     01111011011101101000001
+  Size:    12
+  Signal:  208, 832, 208, 416, 208, 624, 208, 416, 208, 208, 1040, 416
+
+Command: Ch2_OrangeRev_YellowFwd
+  Msg:     01111011011100010111011
+  Size:    12
+  Signal:  208, 832, 208, 416, 208, 624, 624, 208, 208, 624, 208, 624
+
+Command: Ch2_OrangeRev_YellowRev
+  Msg:     01111011011100011111111
+  Size:    8
+  Signal:  208, 832, 208, 416, 208, 624, 624, 1872
+
+Command: Ch2_OrangeRev_YellowStp
+  Msg:     01111011011101100000101
+  Size:    12
+  Signal:  208, 832, 208, 416, 208, 624, 208, 416, 1040, 208, 208, 416
+
+Command: Ch2_OrangeStp_YellowNop
+  Msg:     00001011001100100000001
+  Size:    10
+  Signal:  832, 208, 208, 416, 416, 416, 416, 208, 1456, 416
+
+Command: Ch2_OrangeStp_YellowFwd
+  Msg:     00001011001101101111011
+  Size:    12
+  Signal:  832, 208, 208, 416, 416, 416, 208, 416, 208, 832, 208, 624
+
+Command: Ch2_OrangeStp_YellowRev
+  Msg:     00001011001101100111111
+  Size:    10
+  Signal:  832, 208, 208, 416, 416, 416, 208, 416, 416, 1456
+
+Command: Ch2_OrangeStp_YellowStp
+  Msg:     00001011001100101000101
+  Size:    14
+  Signal:  832, 208, 208, 416, 416, 416, 416, 208, 208, 208, 624, 208, 208, 416
+
+
+Command: Ch3_OrangeNop_YellowNop
+  Msg:     00000111001101001000011
+  Size:    10
+  Signal:  1040, 624, 416, 416, 208, 208, 416, 208, 832, 624
+
+Command: Ch3_OrangeNop_YellowFwd
+  Msg:     00000111001100100111011
+  Size:    10
+  Signal:  1040, 624, 416, 416, 416, 208, 416, 624, 208, 624
+
+Command: Ch3_OrangeNop_YellowRev
+  Msg:     00000111001100101111111
+  Size:    8
+  Signal:  1040, 624, 416, 416, 416, 208, 208, 1664
+
+Command: Ch3_OrangeNop_YellowStp
+  Msg:     00000111001101000000111
+  Size:    8
+  Signal:  1040, 624, 416, 416, 208, 208, 1248, 832
+
+Command: Ch3_OrangeFwd_YellowNop
+  Msg:     01110111011100100000001
+  Size:    10
+  Signal:  208, 624, 208, 624, 208, 624, 416, 208, 1456, 416
+
+Command: Ch3_OrangeFwd_YellowFwd
+  Msg:     01110111011101101111011
+  Size:    12
+  Signal:  208, 624, 208, 624, 208, 624, 208, 416, 208, 832, 208, 624
+
+Command: Ch3_OrangeFwd_YellowRev
+  Msg:     01110111011101100111111
+  Size:    10
+  Signal:  208, 624, 208, 624, 208, 624, 208, 416, 416, 1456
+
+Command: Ch3_OrangeFwd_YellowStp
+  Msg:     01110111011100101000101
+  Size:    14
+  Signal:  208, 624, 208, 624, 208, 624, 416, 208, 208, 208, 624, 208, 208, 416
+
+Command: Ch3_OrangeRev_YellowNop
+  Msg:     01111111001100101000011
+  Size:    10
+  Signal:  208, 1456, 416, 416, 416, 208, 208, 208, 832, 624
+
+Command: Ch3_OrangeRev_YellowFwd
+  Msg:     01111111001101100111001
+  Size:    10
+  Signal:  208, 1456, 416, 416, 208, 416, 416, 624, 416, 416
+
+Command: Ch3_OrangeRev_YellowRev
+  Msg:     01111111001101101111101
+  Size:    10
+  Signal:  208, 1456, 416, 416, 208, 416, 208, 1040, 208, 416
+
+Command: Ch3_OrangeRev_YellowStp
+  Msg:     01111111001100100000111
+  Size:    8
+  Signal:  208, 1456, 416, 416, 416, 208, 1040, 832
+
+Command: Ch3_OrangeStp_YellowNop
+  Msg:     00001111011101000000001
+  Size:    8
+  Signal:  832, 832, 208, 624, 208, 208, 1664, 416
+
+Command: Ch3_OrangeStp_YellowFwd
+  Msg:     00001111011100101111001
+  Size:    10
+  Signal:  832, 832, 208, 624, 416, 208, 208, 832, 416, 416
+
+Command: Ch3_OrangeStp_YellowRev
+  Msg:     00001111011100100111101
+  Size:    10
+  Signal:  832, 832, 208, 624, 416, 208, 416, 832, 208, 416
+
+Command: Ch3_OrangeStp_YellowStp
+  Msg:     00001111011101001000101
+  Size:    12
+  Signal:  832, 832, 208, 624, 208, 208, 416, 208, 624, 208, 208, 416
+
+
+Command: All_OrangeNop_YellowNop
+  Msg:     00000001001100011000011
+  Size:    8
+  Signal:  1456, 208, 416, 416, 624, 416, 832, 624
+
+Command: All_OrangeNop_YellowFwd
+  Msg:     00000001001101010111001
+  Size:    12
+  Signal:  1456, 208, 416, 416, 208, 208, 208, 208, 208, 624, 416, 416
+
+Command: All_OrangeNop_YellowRev
+  Msg:     00000001001101011111101
+  Size:    10
+  Signal:  1456, 208, 416, 416, 208, 208, 208, 1248, 208, 416
+
+Command: All_OrangeNop_YellowStp
+  Msg:     00000001001100010000111
+  Size:    8
+  Signal:  1456, 208, 416, 416, 624, 208, 832, 832
+
+Command: All_OrangeFwd_YellowNop
+  Msg:     01110001011101010000011
+  Size:    12
+  Signal:  208, 624, 624, 208, 208, 624, 208, 208, 208, 208, 1040, 624
+
+Command: All_OrangeFwd_YellowFwd
+  Msg:     01110001011100111111011
+  Size:    10
+  Signal:  208, 624, 624, 208, 208, 624, 416, 1248, 208, 624
+
+Command: All_OrangeFwd_YellowRev
+  Msg:     01110001011100110111111
+  Size:    10
+  Signal:  208, 624, 624, 208, 208, 624, 416, 416, 208, 1456
+
+Command: All_OrangeFwd_YellowStp
+  Msg:     01110001011101011000111
+  Size:    12
+  Signal:  208, 624, 624, 208, 208, 624, 208, 208, 208, 416, 624, 832
+
+Command: All_OrangeRev_YellowNop
+  Msg:     01111001001101011000001
+  Size:    12
+  Signal:  208, 832, 416, 208, 416, 416, 208, 208, 208, 416, 1040, 416
+
+Command: All_OrangeRev_YellowFwd
+  Msg:     01111001001100110111001
+  Size:    12
+  Signal:  208, 832, 416, 208, 416, 416, 416, 416, 208, 624, 416, 416
+
+Command: All_OrangeRev_YellowRev
+  Msg:     01111001001100111111101
+  Size:    10
+  Signal:  208, 832, 416, 208, 416, 416, 416, 1456, 208, 416
+
+Command: All_OrangeRev_YellowStp
+  Msg:     01111001001101010000101
+  Size:    14
+  Signal:  208, 832, 416, 208, 416, 416, 208, 208, 208, 208, 832, 208, 208, 416
+
+Command: All_OrangeStp_YellowNop
+  Msg:     00001001011100010000001
+  Size:    10
+  Signal:  832, 208, 416, 208, 208, 624, 624, 208, 1248, 416
+
+Command: All_OrangeStp_YellowFwd
+  Msg:     00001001011101011111011
+  Size:    12
+  Signal:  832, 208, 416, 208, 208, 624, 208, 208, 208, 1040, 208, 624
+
+Command: All_OrangeStp_YellowRev
+  Msg:     00001001011101010111111
+  Size:    12
+  Signal:  832, 208, 416, 208, 208, 624, 208, 208, 208, 208, 208, 1456
+
+Command: All_OrangeStp_YellowStp
+  Msg:     00001001011100011000101
+  Size:    12
+  Signal:  832, 208, 416, 208, 208, 624, 624, 416, 624, 208, 208, 416
+
+
