@@ -23,7 +23,7 @@ It contains 12 transitions and the timings before each transition occurs. Since 
 To use this command with 'rawSend' we should include this definition:
 
 ```
-#define RCh1_OrangeNop_YellowFwd_LEN 12
+#define Ch1_OrangeNop_YellowFwd_LEN 12
 uint16_t Ch1_OrangeNop_YellowFwd[Ch1_OrangeNop_YellowFwd_LEN]={
   1040, 208, 208, 208, 208, 624, 624, 208, 208, 624, 208, 624
   };
@@ -32,7 +32,7 @@ uint16_t Ch1_OrangeNop_YellowFwd[Ch1_OrangeNop_YellowFwd_LEN]={
 Then to send the command we use:
 
 ```
-mySender.send(RCh1_OrangeNop_YellowFwd,RCh1_OrangeNop_YellowFwd,76);
+mySender.send(RCh1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 ```
 
 # NOTE: only Channel 1 commands are working, will fix other channels soon.
