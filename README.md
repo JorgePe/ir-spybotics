@@ -32,7 +32,7 @@ uint16_t Ch1_OrangeNop_YellowFwd[Ch1_OrangeNop_YellowFwd_LEN]={
 Then to send the command we use:
 
 ```
-mySender.send(RCh1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
+mySender.send(Ch1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 ```
 
 # NOTE: only Channel 1 commands are working, will fix other channels soon.
