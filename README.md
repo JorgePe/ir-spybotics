@@ -35,4 +35,5 @@ Then to send the command we use:
 mySender.send(Ch1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 ```
 
-# NOTE: only Channel 1 commands are working, will fix other channels soon.
+
+## NOTE: I only tested Channel 1 commands, still need to test the other channels.
