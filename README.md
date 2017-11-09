@@ -38,3 +38,28 @@ mySender.send(Ch1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 More details about my findings here:
 http://ofalcao.pt/blog/2017/decoding-old-lego-infrared-protocol
 
+
+## Example
+
+'RemoteControl.ino' is an extended version of 'rawSend', it includes all signals generated with 'ir_generate.py' and accepts commands from the serial port so we can control a LEGO device with a computer.
+
+It's configured to use All Channels and reacts to 4 keys moving both motors at the same time:
+    'F': Front
+    'B': Back
+    'L': Turn Left
+    'R': Turn Right
+    
+It also reacts to keys '0', '1', '2' and '3', making turns with just one motor (instead of using both)
+
+In linux you can use it with 'screen' like this:
+```
+screen /dev/ttyACM0
+```
+or you can send commands from bash like this
+```
+echo F > /dev/ttyACM0
+```
+but you might need to set tty device with:
+```
+stty -F /dev/ttyACM0 ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo
+```
