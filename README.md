@@ -38,4 +38,3 @@ mySender.send(Ch1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 More details about my findings here:
 http://ofalcao.pt/blog/2017/decoding-old-lego-infrared-protocol
 
-### NOTE: I only tested Channel 1/2/3 commands, still need to test All Channel commands
