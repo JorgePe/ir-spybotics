@@ -59,7 +59,7 @@ or you can send commands from bash like this
 ```
 echo F > /dev/ttyACM0
 ```
-but you might need to set tty device with:
+but you might need to set your Arduino serial connection with:
 ```
 stty -F /dev/ttyACM0 ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo
 ```
