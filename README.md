@@ -36,4 +36,4 @@ mySender.send(Ch1_OrangeNop_YellowFwd,Ch1_OrangeNop_YellowFwd,76);
 ```
 
 
-### NOTE: I only tested Channel 1 commands, still need to test the other channels.
+### NOTE: I only tested Channel 1 and Channel 2 commands, still need to test Channel 3 and All channels
