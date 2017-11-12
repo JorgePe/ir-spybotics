@@ -2,6 +2,8 @@
 
 LEGO MINDSTORMS Spybotics had an infrared remote control. This protocol, based on a 76 kHz carrier, was also used on Bionicle Technic Manas, RC Nitro Flash, DUPLO RC Dozer and RC Train. It had a short lifespan and was replaced by LEGO Power Functions IR protocol, based on a 38 kHz carrier, still in use.
 
+The name of this project is misleading bt when I started I was really only interested on controlling the Spybotics. After a while I found out that not just Spybotics but all LEGO IR devices and eve more.
+
 ## Python scripts
 
 'ir_generate.py' generates the signals to control this devices with Arduino using IRLib2 library, like their example sketch 'rawSend'.
@@ -99,13 +101,19 @@ but you might need to set your Arduino serial connection with:
 stty -F /dev/ttyACM0 ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo
 ```
 
+
 ## Notes
 
 DUPLO Dozer has a tendency to gasp after some commands
+
 
 ## More
 
 More details about my findings here:
 http://ofalcao.pt/blog/2017/decoding-old-lego-infrared-protocol
 
+
+## Future developments
+
+I intend to discover why the DUPLO DC Dozer gasps so frequently. And will try to use other LIRC files to control some interesting non-LEGO devices with my MINDSTORMS EV3 (running ev3dev).
 
